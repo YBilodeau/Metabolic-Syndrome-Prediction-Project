@@ -66,3 +66,14 @@ The dataset consists of 2401 rows, and 15 columns.The rows represent 2401 observ
 | Logistics Regression - L2 | 0.8388 | 0.8353 | .81 | .83  |
 | Random Forest | 1.000 | 0.8835 | .87 | .88  |
 | KNN | 0.8506 | 0.8120 | .77 | .80 |
+
+### **Recommended Model**
+The Random Forest Model is the reccomended model due to having the highest Train and Test Accuracy Scores, and the highest F1 Macro and F1 Weighted Averages.
+
+Accurate prediction can lead to early diagnosis and treatment. Inaccurate prediction can delay diagnosis and treatment.
+
+### **Benefit of Early Diagnosis and Treatment**
+"The main goals of treating metabolic syndrome are to lower your risk of heart disease and to prevent type 2 diabetes if it hasn’t already developed. If you already have type 2 diabetes, treatment can lower your risk of heart disease by controlling all your risk factors.
+
+Heart-healthy lifestyle changes are the first line of treatment for metabolic syndrome. You may have to see a dietitian and a physical therapist to help find a diet and exercise plan that works for you. If healthy lifestyle changes do not work, you may need medicines or weight loss surgery."
+- Source - [The Mayo Clinic](https://www.nhlbi.nih.gov/health/metabolic-syndrome/treatment)
