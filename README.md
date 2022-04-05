@@ -33,7 +33,7 @@ Metabolic syndrome is increasingly common, and up to one-third of U.S. adults ha
 
  - Source - [Mayo Clinic](https://www.mayoclinic.org/diseases-conditions/metabolic-syndrome/symptoms-causes/syc-20351916?utm_source=Google&utm_medium=abstract&utm_content=Metabolic-syndrome&utm_campaign=Knowledge-panel)
 
-### **Source of data**
+### **Dataset**
 
 The dataset was aquired from [Data World](https://data.world/informatics-edu/metabolic-syndrome-prediction). They aquired the data for this analysis from the [NHANES](https://www.cdc.gov/nchs/nhanes/index.htm), National Health and Nutrition Examination initiative, in which several features were combined from multiple tables.
 
@@ -99,7 +99,7 @@ Pros: A higher recall means a fewer false negative predictions, also known as ty
 
 Cons: Does not consider how many samples are falsely labeled as positive, or false positives.  It does not penalize type 1 errors.
 
-In the case of this dataset, we might assume that the consequence for a false negative is that a person is less likely to make healthy lifestyle changes in order to take steps to lower the risk of heart disease and or to prevent type 2 diabetes, while the consequence for a false positive is not likley to have significant negative impact oter than emotional stress.  
+In the case of this dataset, we might assume that the consequence for a false negative is that a person is less likely to make healthy lifestyle changes in order to take steps to lower the risk of heart disease and or to prevent type 2 diabetes, while the consequence for a false positive may be stress, but also an increased likelihood healthy lifestyle changes.
 
 #### **Precision Scores**
 When we want to reduce the number of false positives, we want to improve precision.
@@ -123,7 +123,6 @@ In this case precision would be measuring how many of the patients were diagnose
 
 | Model | Train Accuracy Score | Test Accuracy Score | F1 Macro Average | F1 Weighted Average |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
-| Baseline | 0.6578 | 0.6572 | .40 | .52 |
 | Logistics Regression - L1 | 0.8528 | 0.8353 | .81 | .83 |
 | Logistics Regression - L2 | 0.8388 | 0.8353 | .81 | .83  |
 | Random Forest | 1.000 | 0.8835 | .87 | .88  |
