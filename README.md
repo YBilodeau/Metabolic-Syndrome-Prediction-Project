@@ -57,6 +57,68 @@ The dataset consists of 2401 rows, and 15 columns.The rows represent 2401 observ
 | Triglycerides   | Triglycerides in Blood (mg/dL) | 
 | MetabolicSyndrome | Presence or not of at least three of the five metabolic risk factors | 
 
+## **Model Evaluation**
+### **Error Types** 
+ In every binary classification problem we select one class to be the 'positive' class and one to be the 'negative' class. The positive class should be the one you are most interested in finding. For our Metabolic Syndrome dataset the positive class will be the presence of metabolic syndrome and the negative class will be the absence of metabolic syndrome.
+ 
+**Type 1 error:**
+If our model predicts that a mass is malignant, but it is in fact benign, it will have made a type 1 error.  This is also known as a false positive
+**Type 2 error:**
+If our model predicts that a mass is benign, when in fact it is malignant, it will have made a type 2 error.  This is is also known as a false negative.
+
+### **Scores**
+**Accuracy Scores**
+Accuracy is the metric that is most intuitive.  This is defined as:
+
+$$
+accuracy = \frac{True  Positives + True  Negatives}{All  Samples}
+$$
+
+In other words accuracy is correct predictions our model made out of the total number of predictions.
+
+Pros:
+Accuracy is easy to understand and gives a combined picture of both kinds of errors in one number.
+
+Cons: 
+Accuracy can be deceiving when a dataset is unbalanced.  It also does not give specific information about the kinds of errors that a model is making.
+
+For example, we saw above that 66% of the instances in this dataset were negative. If our dataset were even more imbalanced, say 99.9% malignant, then a prediction that EVERYTHING is malignant would have a very high accuracy.  However, that would not be a very useful model for actual medical use.  More often we see the opposite: a disease is very rare, occurring .01% of the time or less, and a model that predicts that NO samples ever have the disease will have a high accuracy, but will actually be useless...and dangerous!
+
+**Recall Scores**
+When we want to reduce the number of false negatives, we want to improve recall.
+
+Recall is defined as: 
+
+$$
+recall = \frac{True Positives}{False Negatives + True Positives}
+$$
+
+That is to say: how many samples did our model label as positive out of all of the true positive samples?
+
+Pros: A higher recall means a fewer false negative predictions, also known as type 2 errors.  It's great for when classifying a positive as a negative is a costly mistake.
+
+Cons: Does not consider how many samples are falsely labeled as positive, or false positives.  It does not penalize type 1 errors.
+
+In the case of this dataset, we might assume that the consequence for a false negative is that a person is less likely to make healthy lifestyle changes in order to take steps to lower the risk of heart disease and or to prevent type 2 diabetes, while the consequence for a false positive is not likley to have significant negative impact oter than emotional stress.  
+
+### **Precision Scores**
+When we want to reduce the number of false positives, we want to improve precision.
+
+Precision is defined as:
+
+$$
+precision = \frac{True Positives}{False Positives + True Positives}
+$$
+
+In other words: What ratio of the samples that we predicted were in the positive class were actually in the positive class?
+
+Pros:  A high precision means fewer type 1 errors, or fewer false positives.  This is a good metric to maximize if a false positive prediction is a costly mistake.
+
+Cons: Precision does not penalize a model for false negatives.  It does not count type 2 errors.
+
+In this case precision would be measuring how many of the patients were diagnosed with metabolic syndrome were actually at risk of heart disease and or type 2 diabetes.
+
+
 ## **Model Comparison Summary and Conclusion**
 
 | Model | Train Accuracy Score | Test Accuracy Score | F1 Macro Average | F1 Weighted Average |
