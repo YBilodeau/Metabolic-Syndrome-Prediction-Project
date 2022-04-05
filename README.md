@@ -67,7 +67,7 @@ If our model predicts that a mass is malignant, but it is in fact benign, it wil
 If our model predicts that a mass is benign, when in fact it is malignant, it will have made a type 2 error.  This is is also known as a false negative.
 
 ### **Scores**
-**Accuracy Scores**
+####**Accuracy Scores**
 Accuracy is the metric that is most intuitive.  This is defined as:
 
 $$
@@ -84,7 +84,7 @@ Accuracy can be deceiving when a dataset is unbalanced.  It also does not give s
 
 For example, we saw above that 66% of the instances in this dataset were negative. If our dataset were even more imbalanced, say 99.9% malignant, then a prediction that EVERYTHING is malignant would have a very high accuracy.  However, that would not be a very useful model for actual medical use.  More often we see the opposite: a disease is very rare, occurring .01% of the time or less, and a model that predicts that NO samples ever have the disease will have a high accuracy, but will actually be useless...and dangerous!
 
-**Recall Scores**
+####**Recall Scores**
 When we want to reduce the number of false negatives, we want to improve recall.
 
 Recall is defined as: 
@@ -101,7 +101,7 @@ Cons: Does not consider how many samples are falsely labeled as positive, or fal
 
 In the case of this dataset, we might assume that the consequence for a false negative is that a person is less likely to make healthy lifestyle changes in order to take steps to lower the risk of heart disease and or to prevent type 2 diabetes, while the consequence for a false positive is not likley to have significant negative impact oter than emotional stress.  
 
-### **Precision Scores**
+#### **Precision Scores**
 When we want to reduce the number of false positives, we want to improve precision.
 
 Precision is defined as:
