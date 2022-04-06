@@ -9,7 +9,7 @@
 
 ### **Goal**
 
-The goal of this project is to predict the presence of metabolic syndrome, yes or no, based on common risk factors utilizing categorical machine learning.
+The goal of this project is to predict the presence of metabolic syndrome, positive or negative, based on common risk factors utilizing categorical machine learning.
 
 ### **Metabolic Syndrome Diagnosis**
 
