@@ -89,7 +89,8 @@ When we want to reduce the number of false negatives, we want to improve recall.
 
 Recall is defined as: 
 
-$$
+<img src="https://render.githubusercontent.com/render/math?math=recall = \frac{True Positives}{False Negatives + True Positives}">
+
 recall = \frac{True Positives}{False Negatives + True Positives}
 $$
 
