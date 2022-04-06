@@ -102,7 +102,7 @@ When we want to reduce the number of false positives, we want to improve precisi
 
 Precision is defined as:
 
-<img src="https://render.githubusercontent.com/render/math?math=precision = \frac{True Positives}{False Positives + True Positives}">
+**<img src="https://render.githubusercontent.com/render/math?math=precision = \frac{True Positives}{False Positives + True Positives}">**
 
 In other words: What ratio of the samples that we predicted were in the positive class were actually in the positive class?
 
