@@ -70,9 +70,7 @@ If our model predicts that a mass is benign, when in fact it is malignant, it wi
 #### **Accuracy Scores**
 Accuracy is the metric that is most intuitive.  This is defined as:
 
-$$
-accuracy = \frac{True  Positives + True  Negatives}{All  Samples}
-$$
+<img src="https://render.githubusercontent.com/render/math?math=accuracy = \frac{True  Positives + True  Negatives}{All  Samples}">
 
 In other words accuracy is correct predictions our model made out of the total number of predictions.
 
@@ -91,9 +89,6 @@ Recall is defined as:
 
 <img src="https://render.githubusercontent.com/render/math?math=recall = \frac{True Positives}{False Negatives + True Positives}">
 
-recall = \frac{True Positives}{False Negatives + True Positives}
-$$
-
 That is to say: how many samples did our model label as positive out of all of the true positive samples?
 
 Pros: A higher recall means a fewer false negative predictions, also known as type 2 errors.  It's great for when classifying a positive as a negative is a costly mistake.
@@ -107,9 +102,7 @@ When we want to reduce the number of false positives, we want to improve precisi
 
 Precision is defined as:
 
-$$
-precision = \frac{True Positives}{False Positives + True Positives}
-$$
+<img src="https://render.githubusercontent.com/render/math?math=precision = \frac{True Positives}{False Positives + True Positives}">
 
 In other words: What ratio of the samples that we predicted were in the positive class were actually in the positive class?
 
