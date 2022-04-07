@@ -81,6 +81,7 @@ Cons:
 Accuracy can be deceiving when a dataset is unbalanced.  It also does not give specific information about the kinds of errors that a model is making.
 
 For example, we saw above that 34% of the instances in this dataset were positive. If our dataset were even more imbalanced, say 99.9% positive, then a prediction that EVERYTHING is positive would have a very high accuracy.  However, that would not be a very useful model for actual medical use.  More often we see the opposite: a disease is very rare, occurring .01% of the time or less, and a model that predicts that NO samples ever have the disease will have a high accuracy, but will actually be useless...and dangerous!
+
 [Accuracy Score](https://drive.google.com/file/d/1oSUpRmEZYJ0isB65eyWoroGUh6nFRArx/view?usp=sharing)
 
 #### **Recall Scores**
