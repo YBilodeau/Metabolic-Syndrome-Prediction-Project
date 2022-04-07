@@ -72,7 +72,7 @@ If our model predicts that there is an absence of metabolic syndrome, when there
 Accuracy is the metric that is most intuitive.  This is defined as:
 
 <img src="https://render.githubusercontent.com/render/math?math=accuracy = \frac{(True  Positives) + (True  Negatives)}{All  Samples}">
-
+<img src ="https://github.com/YBilodeau/Metabolic-Syndrome-Prediction-Project/blob/main/Accuracy%20Formula.webp">
 In other words accuracy is correct predictions our model made out of the total number of predictions.
 
 **Pros:**
