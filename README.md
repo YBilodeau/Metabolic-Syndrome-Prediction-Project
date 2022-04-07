@@ -69,17 +69,12 @@ If our model predicts that a mass is benign, when in fact it is malignant, it wi
 ### **Scores**
 #### **Accuracy Scores**
 Accuracy is the metric that is most intuitive.  This is defined as:
-
 <img src="https://render.githubusercontent.com/render/math?math=accuracy = \frac{True  Positives + True  Negatives}{All  Samples}">
-
 In other words accuracy is correct predictions our model made out of the total number of predictions.
-
-Pros:
+**Pros:**
 Accuracy is easy to understand and gives a combined picture of both kinds of errors in one number.
-
-Cons: 
+**Cons:**
 Accuracy can be deceiving when a dataset is unbalanced.  It also does not give specific information about the kinds of errors that a model is making.
-
 For example, we saw above that 34% of the instances in this dataset were positive. If our dataset were even more imbalanced, say 99.9% positive, then a prediction that EVERYTHING is positive would have a very high accuracy.  However, that would not be a very useful model for actual medical use.  More often we see the opposite: a disease is very rare, occurring .01% of the time or less, and a model that predicts that NO samples ever have the disease will have a high accuracy, but will actually be useless...and dangerous!
 
 ![image](https://github.com/YBilodeau/Metabolic-Syndrome-Prediction-Project/blob/main/Images/Screenshot.png)
@@ -108,9 +103,9 @@ Precision is defined as:
 
 In other words: What ratio of the samples that we predicted were in the positive class were actually in the positive class?
 
-Pros:  A high precision means fewer type 1 errors, or fewer false positives.  This is a good metric to maximize if a false positive prediction is a costly mistake.
+**Pros:**  A high precision means fewer type 1 errors, or fewer false positives.  This is a good metric to maximize if a false positive prediction is a costly mistake.
 
-Cons: Precision does not penalize a model for false negatives.  It does not count type 2 errors.
+**Cons:** Precision does not penalize a model for false negatives.  It does not count type 2 errors.
 
 In this case precision would be measuring how many of the patients were diagnosed with metabolic syndrome were actually at risk of heart disease and or type 2 diabetes.
 
