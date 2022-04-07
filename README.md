@@ -62,10 +62,10 @@ The dataset consists of 2401 rows, and 15 columns.The rows represent 2401 observ
  In every binary classification problem we select one class to be the 'positive' class and one to be the 'negative' class. The positive class should be the one you are most interested in finding. For our Metabolic Syndrome dataset the positive class will be the presence of metabolic syndrome and the negative class will be the absence of metabolic syndrome.
  
 **Type 1 error:**
-If our model predicts that a mass is malignant, but it is in fact benign, it will have made a type 1 error.  This is also known as a false positive
+If our model predicts that there is the presence of metabolic syndrome, but it in fact there is an absence of metabolic syndrome, it will have made a type 1 error.  This is also known as a false positive.
 
 **Type 2 error:**
-If our model predicts that a mass is benign, when in fact it is malignant, it will have made a type 2 error.  This is is also known as a false negative.
+If our model predicts that there is an absence of metabolic syndrome, when there is the presence of metabolic syndrome, it will have made a type 2 error.  This is is also known as a false negative.
 
 ### **Scores**
 #### **Accuracy Scores**
