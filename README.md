@@ -63,6 +63,7 @@ The dataset consists of 2401 rows, and 15 columns.The rows represent 2401 observ
  
 **Type 1 error:**
 If our model predicts that a mass is malignant, but it is in fact benign, it will have made a type 1 error.  This is also known as a false positive
+
 **Type 2 error:**
 If our model predicts that a mass is benign, when in fact it is malignant, it will have made a type 2 error.  This is is also known as a false negative.
 
