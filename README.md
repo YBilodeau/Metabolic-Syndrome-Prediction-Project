@@ -69,7 +69,9 @@ If our model predicts that a mass is benign, when in fact it is malignant, it wi
 ### **Scores**
 #### **Accuracy Scores**
 Accuracy is the metric that is most intuitive.  This is defined as:
+
 <img src="https://render.githubusercontent.com/render/math?math=accuracy = \frac{True  Positives + True  Negatives}{All  Samples}">
+
 In other words accuracy is correct predictions our model made out of the total number of predictions.
 
 **Pros:**
