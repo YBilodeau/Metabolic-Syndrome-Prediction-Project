@@ -71,10 +71,13 @@ If our model predicts that a mass is benign, when in fact it is malignant, it wi
 Accuracy is the metric that is most intuitive.  This is defined as:
 <img src="https://render.githubusercontent.com/render/math?math=accuracy = \frac{True  Positives + True  Negatives}{All  Samples}">
 In other words accuracy is correct predictions our model made out of the total number of predictions.
+
 **Pros:**
 Accuracy is easy to understand and gives a combined picture of both kinds of errors in one number.
+
 **Cons:**
 Accuracy can be deceiving when a dataset is unbalanced.  It also does not give specific information about the kinds of errors that a model is making.
+
 For example, we saw above that 34% of the instances in this dataset were positive. If our dataset were even more imbalanced, say 99.9% positive, then a prediction that EVERYTHING is positive would have a very high accuracy.  However, that would not be a very useful model for actual medical use.  More often we see the opposite: a disease is very rare, occurring .01% of the time or less, and a model that predicts that NO samples ever have the disease will have a high accuracy, but will actually be useless...and dangerous!
 
 ![image](https://github.com/YBilodeau/Metabolic-Syndrome-Prediction-Project/blob/main/Images/Screenshot.png)
