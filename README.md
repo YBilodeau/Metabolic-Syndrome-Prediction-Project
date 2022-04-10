@@ -56,19 +56,11 @@ The dataset consists of 2401 rows, and 15 columns.The rows represent 2401 observ
 
 "Having just one of these conditions doesn't mean you have metabolic syndrome. But it does mean you have a greater risk of serious disease. And if you develop more of these conditions, your risk of complications, such as type 2 diabetes and heart disease, rises even higher.
 
-#### **Large waist**
-
 <img src = "https://github.com/YBilodeau/Metabolic-Syndrome-Prediction-Project/blob/main/Images/WaistCirc%20and%20Age.png">
-
-#### **High triglyceride level**
 
 <img src = "https://github.com/YBilodeau/Metabolic-Syndrome-Prediction-Project/blob/main/Images/Triglycerides%20and%20Age.png">
 
-#### **Elevated fasting blood sugar**
-
 <img src = "https://github.com/YBilodeau/Metabolic-Syndrome-Prediction-Project/blob/main/Images/BloodGlucose%20and%20Age.png">
-
-#### **Reduced "good" or HDL cholesterol**
 
 <img src = "https://github.com/YBilodeau/Metabolic-Syndrome-Prediction-Project/blob/main/Images/HDL%20and%20Age.png">
 
