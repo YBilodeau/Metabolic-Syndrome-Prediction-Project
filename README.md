@@ -18,17 +18,6 @@ The National Institutes of Health guidelines define metabolic syndrome as
 
  - Source - [The National Institutes of Health](https://www.nhlbi.nih.gov/health/metabolic-syndrome#:~:text=Metabolic%20syndrome%20is%20a%20group,more%20of%20the%20following%20conditions.)
 
-"The National Institutes of Health guidelines define metabolic syndrome as having three or more of the following traits, including traits for which you may be taking medication to control:
-
-- **Large waist** — A waistline that measures at least 35 inches (89 centimeters) for women and 40 inches (102 centimeters) for men
-- **High triglyceride level** — 150 milligrams per deciliter (mg/dL), or 1.7 millimoles per liter (mmol/L), or higher of this type of fat found in blood
-- **Reduced "good" or HDL cholesterol** — Less than 40 mg/dL (1.04 mmol/L) in men or less than 50 mg/dL (1.3 mmol/L) in women of high-density lipoprotein (HDL) cholesterol
-- **Increased blood pressure** — 130/85 millimeters of mercury (mm Hg) or higher
-- **Elevated fasting blood sugar** — 100 mg/dL (5.6 mmol/L) or higher"
-
-"Having just one of these conditions doesn't mean you have metabolic syndrome. But it does mean you have a greater risk of serious disease. And if you develop more of these conditions, your risk of complications, such as type 2 diabetes and heart disease, rises even higher.
-
-
 Metabolic syndrome is increasingly common, and up to one-third of U.S. adults have it. If you have metabolic syndrome or any of its components, aggressive lifestyle changes can delay or even prevent the development of serious health problems."
 
  - Source - [Mayo Clinic](https://www.mayoclinic.org/diseases-conditions/metabolic-syndrome/symptoms-causes/syc-20351916?utm_source=Google&utm_medium=abstract&utm_content=Metabolic-syndrome&utm_campaign=Knowledge-panel)
@@ -57,13 +46,23 @@ The dataset consists of 2401 rows, and 15 columns.The rows represent 2401 observ
 | Triglycerides   | Triglycerides in Blood (mg/dL) | 
 | MetabolicSyndrome | Presence or not of at least three of the five metabolic risk factors | 
 
+"The National Institutes of Health guidelines define metabolic syndrome as having three or more of the following traits, including traits for which you may be taking medication to control:
 
+- **Large waist** — A waistline that measures at least 35 inches (89 centimeters) for women and 40 inches (102 centimeters) for men
+- **High triglyceride level** — 150 milligrams per deciliter (mg/dL), or 1.7 millimoles per liter (mmol/L), or higher of this type of fat found in blood
+- **Reduced "good" or HDL cholesterol** — Less than 40 mg/dL (1.04 mmol/L) in men or less than 50 mg/dL (1.3 mmol/L) in women of high-density lipoprotein (HDL) cholesterol
+- **Increased blood pressure** — 130/85 millimeters of mercury (mm Hg) or higher
+- **Elevated fasting blood sugar** — 100 mg/dL (5.6 mmol/L) or higher"
+
+"Having just one of these conditions doesn't mean you have metabolic syndrome. But it does mean you have a greater risk of serious disease. And if you develop more of these conditions, your risk of complications, such as type 2 diabetes and heart disease, rises even higher.
+
+**Large waist**
 <img src = "https://github.com/YBilodeau/Metabolic-Syndrome-Prediction-Project/blob/main/Images/WaistCirc%20and%20Age.png">
-
+**High triglyceride level**
 <img src = "https://github.com/YBilodeau/Metabolic-Syndrome-Prediction-Project/blob/main/Images/Triglycerides%20and%20Age.png">
-
+**Elevated fasting blood sugar**
 <img src = "https://github.com/YBilodeau/Metabolic-Syndrome-Prediction-Project/blob/main/Images/BloodGlucose%20and%20Age.png">
-
+**Reduced "good" or HDL cholesterol**
 <img src = "https://github.com/YBilodeau/Metabolic-Syndrome-Prediction-Project/blob/main/Images/HDL%20and%20Age.png">
 
 ## **Model Evaluation**
