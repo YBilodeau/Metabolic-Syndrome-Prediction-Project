@@ -109,6 +109,8 @@ Cons: Does not consider how many samples are falsely labeled as positive, or fal
 
 In the case of this dataset, we might assume that the consequence for a false negative is that a person is less likely to make healthy lifestyle changes in order to take steps to lower the risk of heart disease and or to prevent type 2 diabetes, while the consequence for a false positive may be stress, but also an increased likelihood healthy lifestyle changes.
 
+<img src="https://github.com/YBilodeau/Metabolic-Syndrome-Prediction-Project/blob/main/Images/Recall%20Scores.png">
+
 #### **Precision Scores**
 When we want to reduce the number of false positives, we want to improve precision.
 
