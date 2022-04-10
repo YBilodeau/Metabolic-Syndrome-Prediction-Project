@@ -78,7 +78,8 @@ If our model predicts that there is an absence of metabolic syndrome, when there
 #### **Accuracy Scores**
 Accuracy is the metric that is most intuitive.  This is defined as:
 
-<img src ="https://github.com/YBilodeau/Metabolic-Syndrome-Prediction-Project/blob/main/Accuracy%20Formula.webp">
+<img src="https://render.githubusercontent.com/render/math?math=recall = \frac{True Positives + True Negatives}{All Samples}">
+
 In other words accuracy is correct predictions our model made out of the total number of predictions.
 
 **Pros:**
@@ -89,12 +90,8 @@ Accuracy can be deceiving when a dataset is unbalanced.  It also does not give s
 
 For example, we saw above that 34% of the instances in this dataset were positive. If our dataset were even more imbalanced, say 99.9% positive, then a prediction that EVERYTHING is positive would have a very high accuracy.  However, that would not be a very useful model for actual medical use.  More often we see the opposite: a disease is very rare, occurring .01% of the time or less, and a model that predicts that NO samples ever have the disease will have a high accuracy, but will actually be useless...and dangerous!
 
-![image](https://github.com/YBilodeau/Metabolic-Syndrome-Prediction-Project/blob/main/Images/Screenshot.png)
-
 #### **Recall Scores**
-When we want to reduce the number of false negatives, we want to improve recall.
-
-Recall is defined as: 
+When we want to reduce the number of false negatives, we want to improve recall. Recall is defined as: 
 
 <img src="https://render.githubusercontent.com/render/math?math=recall = \frac{True Positives}{False Negatives + True Positives}">
 
