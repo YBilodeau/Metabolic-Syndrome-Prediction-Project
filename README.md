@@ -126,6 +126,7 @@ In other words: What ratio of the samples that we predicted were in the positive
 
 In this case precision would be measuring how many of the patients were diagnosed with metabolic syndrome were actually at risk of heart disease and or type 2 diabetes.
 
+<img source="https://github.com/YBilodeau/Metabolic-Syndrome-Prediction-Project/blob/main/Images/Precision%20Scores.png">
 
 ## **Model Comparison Summary and Conclusion**
 
