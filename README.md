@@ -138,7 +138,7 @@ In this case precision would be measuring how many of the patients were diagnose
 | KNN | 0.8506 | 0.8120 | .77 | .80 |
 
 ### **Recommended Model**
-The Random Forest Model is the reccomended model due to having the highest Train and Test Accuracy Scores, and the highest F1 Macro and F1 Weighted Averages.
+**The Random Forest Model** is reccomended due to having the highest Accuracy, Recall, and Precision Scores, as well as the highest F1 Macro and F1 Weighted Averages.
 
 Accurate prediction can lead to early diagnosis and treatment. Inaccurate prediction can delay diagnosis and treatment.
 
