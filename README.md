@@ -131,7 +131,7 @@ In this case precision would be measuring how many of the patients were diagnose
 ## **Model Comparison Summary and Conclusion**
 
 | Model | Accuracy Score | Recall | Precision | F1 Macro Average | F1 Weighted Average |
-| ----------- | ----------- | ----------- | ----------- | ----------- |
+| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
 | KNN | 0.8120 | 0.5874 | .8121 | 0.77 | 0.80 |
 | Logistics Regression - L1 | 0.8353 | 0.6796 | .8092 | 0.81 | 0.83 |
 | Logistics Regression - L2 | 0.8353 | 0.6650 | .8204 | 0.81  | 0.83 |
