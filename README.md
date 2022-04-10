@@ -57,10 +57,19 @@ The dataset consists of 2401 rows, and 15 columns.The rows represent 2401 observ
 | Triglycerides   | Triglycerides in Blood (mg/dL) | 
 | MetabolicSyndrome | Presence or not of at least three of the five metabolic risk factors | 
 
+
+<img src = "https://github.com/YBilodeau/Metabolic-Syndrome-Prediction-Project/blob/main/Images/WaistCirc%20and%20Age.png"
+
+<img src = "https://github.com/YBilodeau/Metabolic-Syndrome-Prediction-Project/blob/main/Images/Triglycerides%20and%20Age.png"
+
+<img src = "https://github.com/YBilodeau/Metabolic-Syndrome-Prediction-Project/blob/main/Images/BloodGlucose%20and%20Age.png">
+
+<img src = "https://github.com/YBilodeau/Metabolic-Syndrome-Prediction-Project/blob/main/Images/HDL%20and%20Age.png"
+
 ## **Model Evaluation**
 ### **Error Types** 
  In every binary classification problem we select one class to be the 'positive' class and one to be the 'negative' class. The positive class should be the one you are most interested in finding. For our Metabolic Syndrome dataset the positive class will be the presence of metabolic syndrome and the negative class will be the absence of metabolic syndrome.
- 
+
 **Type 1 error:**
 If our model predicts that there is the presence of metabolic syndrome, but it in fact there is an absence of metabolic syndrome, it will have made a type 1 error.  This is also known as a false positive.
 
