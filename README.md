@@ -58,13 +58,13 @@ The dataset consists of 2401 rows, and 15 columns.The rows represent 2401 observ
 | MetabolicSyndrome | Presence or not of at least three of the five metabolic risk factors | 
 
 
-<img src = "https://github.com/YBilodeau/Metabolic-Syndrome-Prediction-Project/blob/main/Images/WaistCirc%20and%20Age.png"
+<img src = "https://github.com/YBilodeau/Metabolic-Syndrome-Prediction-Project/blob/main/Images/WaistCirc%20and%20Age.png">
 
-<img src = "https://github.com/YBilodeau/Metabolic-Syndrome-Prediction-Project/blob/main/Images/Triglycerides%20and%20Age.png"
+<img src = "https://github.com/YBilodeau/Metabolic-Syndrome-Prediction-Project/blob/main/Images/Triglycerides%20and%20Age.png">
 
 <img src = "https://github.com/YBilodeau/Metabolic-Syndrome-Prediction-Project/blob/main/Images/BloodGlucose%20and%20Age.png">
 
-<img src = "https://github.com/YBilodeau/Metabolic-Syndrome-Prediction-Project/blob/main/Images/HDL%20and%20Age.png"
+<img src = "https://github.com/YBilodeau/Metabolic-Syndrome-Prediction-Project/blob/main/Images/HDL%20and%20Age.png">
 
 ## **Model Evaluation**
 ### **Error Types** 
