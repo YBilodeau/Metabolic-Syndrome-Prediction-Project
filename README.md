@@ -130,12 +130,13 @@ In this case precision would be measuring how many of the patients were diagnose
 
 ## **Model Comparison Summary and Conclusion**
 
-| Model | Train Accuracy Score | Test Accuracy Score | F1 Macro Average | F1 Weighted Average |
+| Model | Accuracy Score | Recall | Precision | F1 Macro Average | F1 Weighted Average |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
-| Logistics Regression - L1 | 0.8528 | 0.8353 | .81 | .83 |
-| Logistics Regression - L2 | 0.8388 | 0.8353 | .81 | .83  |
-| Random Forest | 1.000 | 0.8835 | .87 | .88  |
-| KNN | 0.8506 | 0.8120 | .77 | .80 |
+| KNN | 0.8120 | 0.5874 | .8121 | 0.77 | 0.80 |
+| Logistics Regression - L1 | 0.8353 | 0.6796 | .8092 | 0.81 | 0.83 |
+| Logistics Regression - L2 | 0.8353 | 0.6650 | .8204 | 0.81  | 0.83 |
+| Random Forest | 0.8835 | 0.7767 | .8696 | 0.87 | 0.88 |
+
 
 ### **Recommended Model**
 **The Random Forest Model** is reccomended due to having the highest Accuracy, Recall, and Precision Scores, as well as the highest F1 Macro and F1 Weighted Averages.
