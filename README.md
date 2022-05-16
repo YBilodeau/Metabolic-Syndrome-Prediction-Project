@@ -148,3 +148,4 @@ Accurate prediction can lead to early diagnosis and treatment. Inaccurate predic
 
 Heart-healthy lifestyle changes are the first line of treatment for metabolic syndrome. You may have to see a dietitian and a physical therapist to help find a diet and exercise plan that works for you. If healthy lifestyle changes do not work, you may need medicines or weight loss surgery."
 - Source - [The Mayo Clinic](https://www.nhlbi.nih.gov/health/metabolic-syndrome/treatment)
+
