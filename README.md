@@ -92,7 +92,7 @@ Accuracy can be deceiving when a dataset is unbalanced.  It also does not give s
 
 For example, we saw above that 34% of the instances in this dataset were positive. If our dataset were even more imbalanced, say 99.9% positive, then a prediction that EVERYTHING is positive would have a very high accuracy.  However, that would not be a very useful model for actual medical use.  More often we see the opposite: a disease is very rare, occurring .01% of the time or less, and a model that predicts that NO samples ever have the disease will have a high accuracy, but will actually be useless...and dangerous!
 
-<img src="https://github.com/YBilodeau/Metabolic-Syndrome-Prediction-Project/blob/main/Images/Accuracy%20Scores.png">
+<img src="">
 
 #### **Recall Scores**
 When we want to reduce the number of false negatives, we want to improve recall. 
@@ -109,7 +109,7 @@ Cons: Does not consider how many samples are falsely labeled as positive, or fal
 
 In the case of this dataset, we might assume that the consequence for a false negative is that a person is less likely to make healthy lifestyle changes in order to take steps to lower the risk of heart disease and or to prevent type 2 diabetes, while the consequence for a false positive may be stress, but also an increased likelihood healthy lifestyle changes.
 
-<img src="https://github.com/YBilodeau/Metabolic-Syndrome-Prediction-Project/blob/main/Images/Recall%20Scores.png">
+<img src="">
 
 #### **Precision Scores**
 When we want to reduce the number of false positives, we want to improve precision.
@@ -126,7 +126,7 @@ In other words: What ratio of the samples that we predicted were in the positive
 
 In this case precision would be measuring how many of the patients were diagnosed with metabolic syndrome were actually at risk of heart disease and or type 2 diabetes.
 
-<img src="https://github.com/YBilodeau/Metabolic-Syndrome-Prediction-Project/blob/main/Images/Precision%20Scores.png">
+<img src="">
 
 ## **Model Comparison Summary and Conclusion**
 
